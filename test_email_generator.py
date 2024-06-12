@@ -59,16 +59,24 @@ def generate_test_email():
     Sales Manager
     <Attachment: Commercial Invoice {generate_random_string()}>"""
     
+    labels = {
+        "po_numbers": po_numbers,
+        "part_numbers": part_numbers,
+        "quantities": quantities,
+        "tracking_number": tracking_number
+    }
+    
     return {
         "sender": sender_name,
         "recipient": recipient_name,
         "subject": "Shipment Notification",
-        "body": email_content
+        "body": email_content,
+        "labels": labels
     }
 
 def generate_test_emails(num_emails=30):
     test_emails = [generate_test_email() for _ in range(num_emails)]
-    with open('test_emails.json', 'w') as f:
+    with open('labeled_test_emails.json', 'w') as f:
         json.dump(test_emails, f, indent=4)
 
 # Generate 30 test emails and save to a JSON file

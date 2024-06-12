@@ -1,0 +1,902 @@
+[
+    {
+        "sender": "Sarah Martinez",
+        "recipient": "Tom Davis",
+        "subject": "Shipment Notification",
+        "body": "\n    Hi Tom,\n    See below shipment:\n    | PO    | Part No.                                         | Pnl  |\n    |-------|--------------------------------------------------|------|\n    | 42549 | Dual Sensor V2.0 | 217    |\n    | 43829 | DA0961 SMTPA PCB V1P3 | 132    |\n    | 47330 | Panel_CAM81204140_01 | 437    |\n    | 47575 | Catamount 8L RI Rev 1 & Catamount 8L REStripline | 365    |\n    | 41225 | Dual Sensor V2.0 | 352    |\n    DHL: 2711593261 \n    Sarah Martinez\n    Sales Manager\n    <Attachment: Commercial Invoice QXWYIRNB>",
+        "labels": {
+            "po_numbers": [
+                "42549",
+                "43829",
+                "47330",
+                "47575",
+                "41225"
+            ],
+            "part_numbers": [
+                "Dual Sensor V2.0",
+                "DA0961 SMTPA PCB V1P3",
+                "Panel_CAM81204140_01",
+                "Catamount 8L RI Rev 1 & Catamount 8L REStripline",
+                "Dual Sensor V2.0"
+            ],
+            "quantities": [
+                "217",
+                "132",
+                "437",
+                "365",
+                "352"
+            ],
+            "tracking_number": "2711593261"
+        }
+    },
+    {
+        "sender": "Emily Rodriguez",
+        "recipient": "Oliver Garcia",
+        "subject": "Shipment Notification",
+        "body": "\n    Hi Oliver,\n    See below shipment:\n    | PO    | Part No.                                         | Pnl  |\n    |-------|--------------------------------------------------|------|\n    | 41374 | Dual Sensor V2.0 | 395    |\n    | 45707 | Dual Sensor V2.0 | 275    |\n    | 41017 | Quad Sensor V3.1 | 252    |\n    | 43725 | Dual Sensor V2.0 | 252    |\n    | 47997 | PT-0037229 Rev A PT-0038573 Rev A | 376    |\n    DHL: 8087955418 \n    Emily Rodriguez\n    Sales Manager\n    <Attachment: Commercial Invoice SXTWBQQO>",
+        "labels": {
+            "po_numbers": [
+                "41374",
+                "45707",
+                "41017",
+                "43725",
+                "47997"
+            ],
+            "part_numbers": [
+                "Dual Sensor V2.0",
+                "Dual Sensor V2.0",
+                "Quad Sensor V3.1",
+                "Dual Sensor V2.0",
+                "PT-0037229 Rev A PT-0038573 Rev A"
+            ],
+            "quantities": [
+                "395",
+                "275",
+                "252",
+                "252",
+                "376"
+            ],
+            "tracking_number": "8087955418"
+        }
+    },
+    {
+        "sender": "Tom Brown",
+        "recipient": "Niall Jones",
+        "subject": "Shipment Notification",
+        "body": "\n    Hi Niall,\n    See below shipment:\n    | PO    | Part No.                                         | Pnl  |\n    |-------|--------------------------------------------------|------|\n    | 41469 | DA0961 SMTPA PCB V1P3 | 421    |\n    | 43447 | PT-0037229 Rev A PT-0038573 Rev A | 78    |\n    | 47195 | Dual Sensor V2.0 | 64    |\n    | 43170 | Module_XYZ12457890_A | 365    |\n    | 40359 | FT-0093472 Rev B FT-0048723 Rev C | 381    |\n    DHL: 3020074704 \n    Tom Brown\n    Sales Manager\n    <Attachment: Commercial Invoice ODUUGOKP>",
+        "labels": {
+            "po_numbers": [
+                "41469",
+                "43447",
+                "47195",
+                "43170",
+                "40359"
+            ],
+            "part_numbers": [
+                "DA0961 SMTPA PCB V1P3",
+                "PT-0037229 Rev A PT-0038573 Rev A",
+                "Dual Sensor V2.0",
+                "Module_XYZ12457890_A",
+                "FT-0093472 Rev B FT-0048723 Rev C"
+            ],
+            "quantities": [
+                "421",
+                "78",
+                "64",
+                "365",
+                "381"
+            ],
+            "tracking_number": "3020074704"
+        }
+    },
+    {
+        "sender": "Tom Smith",
+        "recipient": "Liam Martinez",
+        "subject": "Shipment Notification",
+        "body": "\n    Hi Liam,\n    See below shipment:\n    | PO    | Part No.                                         | Pnl  |\n    |-------|--------------------------------------------------|------|\n    | 48393 | DA0961 SMTPA PCB V1P3 | 317    |\n    | 40859 | Dual Sensor V2.0 | 325    |\n    | 46977 | Quad Sensor V3.1 | 320    |\n    | 48081 | Dual Sensor V2.0 | 388    |\n    | 43644 | DA0961 SMTPA PCB V1P3 | 463    |\n    DHL: 5933112657 \n    Tom Smith\n    Sales Manager\n    <Attachment: Commercial Invoice MJVNIINZ>",
+        "labels": {
+            "po_numbers": [
+                "48393",
+                "40859",
+                "46977",
+                "48081",
+                "43644"
+            ],
+            "part_numbers": [
+                "DA0961 SMTPA PCB V1P3",
+                "Dual Sensor V2.0",
+                "Quad Sensor V3.1",
+                "Dual Sensor V2.0",
+                "DA0961 SMTPA PCB V1P3"
+            ],
+            "quantities": [
+                "317",
+                "325",
+                "320",
+                "388",
+                "463"
+            ],
+            "tracking_number": "5933112657"
+        }
+    },
+    {
+        "sender": "Isabella Johnson",
+        "recipient": "Sophia Brown",
+        "subject": "Shipment Notification",
+        "body": "\n    Hi Sophia,\n    See below shipment:\n    | PO    | Part No.                                         | Pnl  |\n    |-------|--------------------------------------------------|------|\n    | 47732 | Module_XYZ12457890_A | 74    |\n    | 43988 | Panel_CAM81204140_01 | 353    |\n    | 49070 | FT-0093472 Rev B FT-0048723 Rev C | 442    |\n    | 44067 | PT-0037229 Rev A PT-0038573 Rev A | 322    |\n    | 47537 | FT-0093472 Rev B FT-0048723 Rev C | 134    |\n    DHL: 9736611411 \n    Isabella Johnson\n    Sales Manager\n    <Attachment: Commercial Invoice AMCJLNJD>",
+        "labels": {
+            "po_numbers": [
+                "47732",
+                "43988",
+                "49070",
+                "44067",
+                "47537"
+            ],
+            "part_numbers": [
+                "Module_XYZ12457890_A",
+                "Panel_CAM81204140_01",
+                "FT-0093472 Rev B FT-0048723 Rev C",
+                "PT-0037229 Rev A PT-0038573 Rev A",
+                "FT-0093472 Rev B FT-0048723 Rev C"
+            ],
+            "quantities": [
+                "74",
+                "353",
+                "442",
+                "322",
+                "134"
+            ],
+            "tracking_number": "9736611411"
+        }
+    },
+    {
+        "sender": "Sophia Brown",
+        "recipient": "Liam Davis",
+        "subject": "Shipment Notification",
+        "body": "\n    Hi Liam,\n    See below shipment:\n    | PO    | Part No.                                         | Pnl  |\n    |-------|--------------------------------------------------|------|\n    | 41331 | Catamount 8L RI Rev 1 & Catamount 8L REStripline | 439    |\n    | 42646 | Catamount 8L RI Rev 1 & Catamount 8L REStripline | 114    |\n    | 49161 | AX2045 SMTAB PCB V2Q5 | 264    |\n    | 40869 | AX2045 SMTAB PCB V2Q5 | 400    |\n    | 45490 | FT-0093472 Rev B FT-0048723 Rev C | 70    |\n    DHL: 3441866691 \n    Sophia Brown\n    Sales Manager\n    <Attachment: Commercial Invoice FYPANLQI>",
+        "labels": {
+            "po_numbers": [
+                "41331",
+                "42646",
+                "49161",
+                "40869",
+                "45490"
+            ],
+            "part_numbers": [
+                "Catamount 8L RI Rev 1 & Catamount 8L REStripline",
+                "Catamount 8L RI Rev 1 & Catamount 8L REStripline",
+                "AX2045 SMTAB PCB V2Q5",
+                "AX2045 SMTAB PCB V2Q5",
+                "FT-0093472 Rev B FT-0048723 Rev C"
+            ],
+            "quantities": [
+                "439",
+                "114",
+                "264",
+                "400",
+                "70"
+            ],
+            "tracking_number": "3441866691"
+        }
+    },
+    {
+        "sender": "Emily Smith",
+        "recipient": "Niall Martinez",
+        "subject": "Shipment Notification",
+        "body": "\n    Hi Niall,\n    See below shipment:\n    | PO    | Part No.                                         | Pnl  |\n    |-------|--------------------------------------------------|------|\n    | 48502 | Panel_CAM81204140_01 | 222    |\n    | 46777 | AX2045 SMTAB PCB V2Q5 | 139    |\n    | 46395 | Catamount 8L RI Rev 1 & Catamount 8L REStripline | 199    |\n    | 40806 | Module_XYZ12457890_A | 250    |\n    | 49185 | Quad Sensor V3.1 | 222    |\n    DHL: 9030285212 \n    Emily Smith\n    Sales Manager\n    <Attachment: Commercial Invoice IOPELTXY>",
+        "labels": {
+            "po_numbers": [
+                "48502",
+                "46777",
+                "46395",
+                "40806",
+                "49185"
+            ],
+            "part_numbers": [
+                "Panel_CAM81204140_01",
+                "AX2045 SMTAB PCB V2Q5",
+                "Catamount 8L RI Rev 1 & Catamount 8L REStripline",
+                "Module_XYZ12457890_A",
+                "Quad Sensor V3.1"
+            ],
+            "quantities": [
+                "222",
+                "139",
+                "199",
+                "250",
+                "222"
+            ],
+            "tracking_number": "9030285212"
+        }
+    },
+    {
+        "sender": "James Smith",
+        "recipient": "Isabella Brown",
+        "subject": "Shipment Notification",
+        "body": "\n    Hi Isabella,\n    See below shipment:\n    | PO    | Part No.                                         | Pnl  |\n    |-------|--------------------------------------------------|------|\n    | 44161 | Quad Sensor V3.1 | 143    |\n    | 46685 | FT-0093472 Rev B FT-0048723 Rev C | 203    |\n    | 48585 | Quad Sensor V3.1 | 85    |\n    | 40258 | DA0961 SMTPA PCB V1P3 | 190    |\n    | 44099 | Quad Sensor V3.1 | 200    |\n    DHL: 6496311573 \n    James Smith\n    Sales Manager\n    <Attachment: Commercial Invoice OXPGZODP>",
+        "labels": {
+            "po_numbers": [
+                "44161",
+                "46685",
+                "48585",
+                "40258",
+                "44099"
+            ],
+            "part_numbers": [
+                "Quad Sensor V3.1",
+                "FT-0093472 Rev B FT-0048723 Rev C",
+                "Quad Sensor V3.1",
+                "DA0961 SMTPA PCB V1P3",
+                "Quad Sensor V3.1"
+            ],
+            "quantities": [
+                "143",
+                "203",
+                "85",
+                "190",
+                "200"
+            ],
+            "tracking_number": "6496311573"
+        }
+    },
+    {
+        "sender": "Tom Martinez",
+        "recipient": "Mason Williams",
+        "subject": "Shipment Notification",
+        "body": "\n    Hi Mason,\n    See below shipment:\n    | PO    | Part No.                                         | Pnl  |\n    |-------|--------------------------------------------------|------|\n    | 44673 | Panel_CAM81204140_01 | 204    |\n    | 41286 | Dual Sensor V2.0 | 249    |\n    | 43273 | PT-0037229 Rev A PT-0038573 Rev A | 402    |\n    | 45612 | Module_XYZ12457890_A | 240    |\n    | 44804 | Quad Sensor V3.1 | 306    |\n    DHL: 3865281948 \n    Tom Martinez\n    Sales Manager\n    <Attachment: Commercial Invoice GXHEIDVM>",
+        "labels": {
+            "po_numbers": [
+                "44673",
+                "41286",
+                "43273",
+                "45612",
+                "44804"
+            ],
+            "part_numbers": [
+                "Panel_CAM81204140_01",
+                "Dual Sensor V2.0",
+                "PT-0037229 Rev A PT-0038573 Rev A",
+                "Module_XYZ12457890_A",
+                "Quad Sensor V3.1"
+            ],
+            "quantities": [
+                "204",
+                "249",
+                "402",
+                "240",
+                "306"
+            ],
+            "tracking_number": "3865281948"
+        }
+    },
+    {
+        "sender": "Emily Rodriguez",
+        "recipient": "Mason Williams",
+        "subject": "Shipment Notification",
+        "body": "\n    Hi Mason,\n    See below shipment:\n    | PO    | Part No.                                         | Pnl  |\n    |-------|--------------------------------------------------|------|\n    | 48929 | FT-0093472 Rev B FT-0048723 Rev C | 466    |\n    | 49117 | Catamount 8L RI Rev 1 & Catamount 8L REStripline | 93    |\n    | 47717 | Catamount 8L RI Rev 1 & Catamount 8L REStripline | 113    |\n    | 44490 | Module_XYZ12457890_A | 169    |\n    | 46899 | AX2045 SMTAB PCB V2Q5 | 115    |\n    DHL: 1975115796 \n    Emily Rodriguez\n    Sales Manager\n    <Attachment: Commercial Invoice IZDXUQDL>",
+        "labels": {
+            "po_numbers": [
+                "48929",
+                "49117",
+                "47717",
+                "44490",
+                "46899"
+            ],
+            "part_numbers": [
+                "FT-0093472 Rev B FT-0048723 Rev C",
+                "Catamount 8L RI Rev 1 & Catamount 8L REStripline",
+                "Catamount 8L RI Rev 1 & Catamount 8L REStripline",
+                "Module_XYZ12457890_A",
+                "AX2045 SMTAB PCB V2Q5"
+            ],
+            "quantities": [
+                "466",
+                "93",
+                "113",
+                "169",
+                "115"
+            ],
+            "tracking_number": "1975115796"
+        }
+    },
+    {
+        "sender": "Emily Rodriguez",
+        "recipient": "Sophia Williams",
+        "subject": "Shipment Notification",
+        "body": "\n    Hi Sophia,\n    See below shipment:\n    | PO    | Part No.                                         | Pnl  |\n    |-------|--------------------------------------------------|------|\n    | 44292 | AX2045 SMTAB PCB V2Q5 | 138    |\n    | 40607 | Panel_CAM81204140_01 | 488    |\n    | 46548 | Quad Sensor V3.1 | 78    |\n    | 45768 | DA0961 SMTPA PCB V1P3 | 13    |\n    | 47934 | Catamount 8L RI Rev 1 & Catamount 8L REStripline | 183    |\n    DHL: 4097146908 \n    Emily Rodriguez\n    Sales Manager\n    <Attachment: Commercial Invoice BKJWXAAB>",
+        "labels": {
+            "po_numbers": [
+                "44292",
+                "40607",
+                "46548",
+                "45768",
+                "47934"
+            ],
+            "part_numbers": [
+                "AX2045 SMTAB PCB V2Q5",
+                "Panel_CAM81204140_01",
+                "Quad Sensor V3.1",
+                "DA0961 SMTPA PCB V1P3",
+                "Catamount 8L RI Rev 1 & Catamount 8L REStripline"
+            ],
+            "quantities": [
+                "138",
+                "488",
+                "78",
+                "13",
+                "183"
+            ],
+            "tracking_number": "4097146908"
+        }
+    },
+    {
+        "sender": "Niall Brown",
+        "recipient": "Oliver Smith",
+        "subject": "Shipment Notification",
+        "body": "\n    Hi Oliver,\n    See below shipment:\n    | PO    | Part No.                                         | Pnl  |\n    |-------|--------------------------------------------------|------|\n    | 45426 | Panel_CAM81204140_01 | 480    |\n    | 49202 | PT-0037229 Rev A PT-0038573 Rev A | 92    |\n    | 41811 | Module_XYZ12457890_A | 464    |\n    | 45097 | Module_XYZ12457890_A | 411    |\n    | 45980 | Catamount 8L RI Rev 1 & Catamount 8L REStripline | 56    |\n    DHL: 2702831215 \n    Niall Brown\n    Sales Manager\n    <Attachment: Commercial Invoice CVDHCMLL>",
+        "labels": {
+            "po_numbers": [
+                "45426",
+                "49202",
+                "41811",
+                "45097",
+                "45980"
+            ],
+            "part_numbers": [
+                "Panel_CAM81204140_01",
+                "PT-0037229 Rev A PT-0038573 Rev A",
+                "Module_XYZ12457890_A",
+                "Module_XYZ12457890_A",
+                "Catamount 8L RI Rev 1 & Catamount 8L REStripline"
+            ],
+            "quantities": [
+                "480",
+                "92",
+                "464",
+                "411",
+                "56"
+            ],
+            "tracking_number": "2702831215"
+        }
+    },
+    {
+        "sender": "Sophia Miller",
+        "recipient": "Sarah Rodriguez",
+        "subject": "Shipment Notification",
+        "body": "\n    Hi Sarah,\n    See below shipment:\n    | PO    | Part No.                                         | Pnl  |\n    |-------|--------------------------------------------------|------|\n    | 49221 | Panel_CAM81204140_01 | 328    |\n    | 41104 | Dual Sensor V2.0 | 374    |\n    | 42463 | DA0961 SMTPA PCB V1P3 | 294    |\n    | 43403 | Dual Sensor V2.0 | 285    |\n    | 40224 | DA0961 SMTPA PCB V1P3 | 244    |\n    DHL: 1087887392 \n    Sophia Miller\n    Sales Manager\n    <Attachment: Commercial Invoice ACYKPWNF>",
+        "labels": {
+            "po_numbers": [
+                "49221",
+                "41104",
+                "42463",
+                "43403",
+                "40224"
+            ],
+            "part_numbers": [
+                "Panel_CAM81204140_01",
+                "Dual Sensor V2.0",
+                "DA0961 SMTPA PCB V1P3",
+                "Dual Sensor V2.0",
+                "DA0961 SMTPA PCB V1P3"
+            ],
+            "quantities": [
+                "328",
+                "374",
+                "294",
+                "285",
+                "244"
+            ],
+            "tracking_number": "1087887392"
+        }
+    },
+    {
+        "sender": "Liam Smith",
+        "recipient": "James Brown",
+        "subject": "Shipment Notification",
+        "body": "\n    Hi James,\n    See below shipment:\n    | PO    | Part No.                                         | Pnl  |\n    |-------|--------------------------------------------------|------|\n    | 41473 | AX2045 SMTAB PCB V2Q5 | 77    |\n    | 41683 | Dual Sensor V2.0 | 319    |\n    | 47004 | DA0961 SMTPA PCB V1P3 | 396    |\n    | 49959 | Panel_CAM81204140_01 | 398    |\n    | 46033 | PT-0037229 Rev A PT-0038573 Rev A | 366    |\n    DHL: 8355696691 \n    Liam Smith\n    Sales Manager\n    <Attachment: Commercial Invoice ZBIKGPOS>",
+        "labels": {
+            "po_numbers": [
+                "41473",
+                "41683",
+                "47004",
+                "49959",
+                "46033"
+            ],
+            "part_numbers": [
+                "AX2045 SMTAB PCB V2Q5",
+                "Dual Sensor V2.0",
+                "DA0961 SMTPA PCB V1P3",
+                "Panel_CAM81204140_01",
+                "PT-0037229 Rev A PT-0038573 Rev A"
+            ],
+            "quantities": [
+                "77",
+                "319",
+                "396",
+                "398",
+                "366"
+            ],
+            "tracking_number": "8355696691"
+        }
+    },
+    {
+        "sender": "James Miller",
+        "recipient": "James Davis",
+        "subject": "Shipment Notification",
+        "body": "\n    Hi James,\n    See below shipment:\n    | PO    | Part No.                                         | Pnl  |\n    |-------|--------------------------------------------------|------|\n    | 42934 | DA0961 SMTPA PCB V1P3 | 150    |\n    | 40444 | Dual Sensor V2.0 | 329    |\n    | 48177 | Quad Sensor V3.1 | 16    |\n    | 40424 | Catamount 8L RI Rev 1 & Catamount 8L REStripline | 285    |\n    | 45669 | Dual Sensor V2.0 | 9    |\n    DHL: 7653424777 \n    James Miller\n    Sales Manager\n    <Attachment: Commercial Invoice JLAYHVUV>",
+        "labels": {
+            "po_numbers": [
+                "42934",
+                "40444",
+                "48177",
+                "40424",
+                "45669"
+            ],
+            "part_numbers": [
+                "DA0961 SMTPA PCB V1P3",
+                "Dual Sensor V2.0",
+                "Quad Sensor V3.1",
+                "Catamount 8L RI Rev 1 & Catamount 8L REStripline",
+                "Dual Sensor V2.0"
+            ],
+            "quantities": [
+                "150",
+                "329",
+                "16",
+                "285",
+                "9"
+            ],
+            "tracking_number": "7653424777"
+        }
+    },
+    {
+        "sender": "Isabella Garcia",
+        "recipient": "Mason Miller",
+        "subject": "Shipment Notification",
+        "body": "\n    Hi Mason,\n    See below shipment:\n    | PO    | Part No.                                         | Pnl  |\n    |-------|--------------------------------------------------|------|\n    | 45380 | Panel_CAM81204140_01 | 285    |\n    | 48389 | Dual Sensor V2.0 | 304    |\n    | 49930 | DA0961 SMTPA PCB V1P3 | 399    |\n    | 49025 | Module_XYZ12457890_A | 264    |\n    | 41566 | Quad Sensor V3.1 | 195    |\n    DHL: 4277865767 \n    Isabella Garcia\n    Sales Manager\n    <Attachment: Commercial Invoice AIMCZSCW>",
+        "labels": {
+            "po_numbers": [
+                "45380",
+                "48389",
+                "49930",
+                "49025",
+                "41566"
+            ],
+            "part_numbers": [
+                "Panel_CAM81204140_01",
+                "Dual Sensor V2.0",
+                "DA0961 SMTPA PCB V1P3",
+                "Module_XYZ12457890_A",
+                "Quad Sensor V3.1"
+            ],
+            "quantities": [
+                "285",
+                "304",
+                "399",
+                "264",
+                "195"
+            ],
+            "tracking_number": "4277865767"
+        }
+    },
+    {
+        "sender": "Sarah Jones",
+        "recipient": "James Smith",
+        "subject": "Shipment Notification",
+        "body": "\n    Hi James,\n    See below shipment:\n    | PO    | Part No.                                         | Pnl  |\n    |-------|--------------------------------------------------|------|\n    | 44348 | Panel_CAM81204140_01 | 245    |\n    | 46276 | PT-0037229 Rev A PT-0038573 Rev A | 400    |\n    | 46930 | FT-0093472 Rev B FT-0048723 Rev C | 163    |\n    | 47313 | Panel_CAM81204140_01 | 121    |\n    | 48532 | Quad Sensor V3.1 | 199    |\n    DHL: 4635751555 \n    Sarah Jones\n    Sales Manager\n    <Attachment: Commercial Invoice KWWSNIWZ>",
+        "labels": {
+            "po_numbers": [
+                "44348",
+                "46276",
+                "46930",
+                "47313",
+                "48532"
+            ],
+            "part_numbers": [
+                "Panel_CAM81204140_01",
+                "PT-0037229 Rev A PT-0038573 Rev A",
+                "FT-0093472 Rev B FT-0048723 Rev C",
+                "Panel_CAM81204140_01",
+                "Quad Sensor V3.1"
+            ],
+            "quantities": [
+                "245",
+                "400",
+                "163",
+                "121",
+                "199"
+            ],
+            "tracking_number": "4635751555"
+        }
+    },
+    {
+        "sender": "Sophia Rodriguez",
+        "recipient": "Emily Miller",
+        "subject": "Shipment Notification",
+        "body": "\n    Hi Emily,\n    See below shipment:\n    | PO    | Part No.                                         | Pnl  |\n    |-------|--------------------------------------------------|------|\n    | 44457 | PT-0037229 Rev A PT-0038573 Rev A | 321    |\n    | 47920 | AX2045 SMTAB PCB V2Q5 | 434    |\n    | 46663 | DA0961 SMTPA PCB V1P3 | 138    |\n    | 49647 | PT-0037229 Rev A PT-0038573 Rev A | 276    |\n    | 41920 | PT-0037229 Rev A PT-0038573 Rev A | 387    |\n    DHL: 2054224534 \n    Sophia Rodriguez\n    Sales Manager\n    <Attachment: Commercial Invoice KQBEPIXD>",
+        "labels": {
+            "po_numbers": [
+                "44457",
+                "47920",
+                "46663",
+                "49647",
+                "41920"
+            ],
+            "part_numbers": [
+                "PT-0037229 Rev A PT-0038573 Rev A",
+                "AX2045 SMTAB PCB V2Q5",
+                "DA0961 SMTPA PCB V1P3",
+                "PT-0037229 Rev A PT-0038573 Rev A",
+                "PT-0037229 Rev A PT-0038573 Rev A"
+            ],
+            "quantities": [
+                "321",
+                "434",
+                "138",
+                "276",
+                "387"
+            ],
+            "tracking_number": "2054224534"
+        }
+    },
+    {
+        "sender": "James Martinez",
+        "recipient": "Sarah Rodriguez",
+        "subject": "Shipment Notification",
+        "body": "\n    Hi Sarah,\n    See below shipment:\n    | PO    | Part No.                                         | Pnl  |\n    |-------|--------------------------------------------------|------|\n    | 44406 | Catamount 8L RI Rev 1 & Catamount 8L REStripline | 125    |\n    | 49236 | Module_XYZ12457890_A | 161    |\n    | 46030 | PT-0037229 Rev A PT-0038573 Rev A | 435    |\n    | 48848 | Dual Sensor V2.0 | 361    |\n    | 46449 | Quad Sensor V3.1 | 103    |\n    DHL: 6826150191 \n    James Martinez\n    Sales Manager\n    <Attachment: Commercial Invoice PBMOXRQJ>",
+        "labels": {
+            "po_numbers": [
+                "44406",
+                "49236",
+                "46030",
+                "48848",
+                "46449"
+            ],
+            "part_numbers": [
+                "Catamount 8L RI Rev 1 & Catamount 8L REStripline",
+                "Module_XYZ12457890_A",
+                "PT-0037229 Rev A PT-0038573 Rev A",
+                "Dual Sensor V2.0",
+                "Quad Sensor V3.1"
+            ],
+            "quantities": [
+                "125",
+                "161",
+                "435",
+                "361",
+                "103"
+            ],
+            "tracking_number": "6826150191"
+        }
+    },
+    {
+        "sender": "Tom Davis",
+        "recipient": "Liam Johnson",
+        "subject": "Shipment Notification",
+        "body": "\n    Hi Liam,\n    See below shipment:\n    | PO    | Part No.                                         | Pnl  |\n    |-------|--------------------------------------------------|------|\n    | 44067 | AX2045 SMTAB PCB V2Q5 | 134    |\n    | 41902 | Panel_CAM81204140_01 | 440    |\n    | 41829 | Dual Sensor V2.0 | 132    |\n    | 45577 | FT-0093472 Rev B FT-0048723 Rev C | 63    |\n    | 47832 | Dual Sensor V2.0 | 27    |\n    DHL: 8567319445 \n    Tom Davis\n    Sales Manager\n    <Attachment: Commercial Invoice DAPHWBEC>",
+        "labels": {
+            "po_numbers": [
+                "44067",
+                "41902",
+                "41829",
+                "45577",
+                "47832"
+            ],
+            "part_numbers": [
+                "AX2045 SMTAB PCB V2Q5",
+                "Panel_CAM81204140_01",
+                "Dual Sensor V2.0",
+                "FT-0093472 Rev B FT-0048723 Rev C",
+                "Dual Sensor V2.0"
+            ],
+            "quantities": [
+                "134",
+                "440",
+                "132",
+                "63",
+                "27"
+            ],
+            "tracking_number": "8567319445"
+        }
+    },
+    {
+        "sender": "Emily Martinez",
+        "recipient": "Sophia Martinez",
+        "subject": "Shipment Notification",
+        "body": "\n    Hi Sophia,\n    See below shipment:\n    | PO    | Part No.                                         | Pnl  |\n    |-------|--------------------------------------------------|------|\n    | 43332 | AX2045 SMTAB PCB V2Q5 | 316    |\n    | 42283 | DA0961 SMTPA PCB V1P3 | 466    |\n    | 42507 | DA0961 SMTPA PCB V1P3 | 480    |\n    | 45208 | Module_XYZ12457890_A | 190    |\n    | 40638 | Module_XYZ12457890_A | 470    |\n    DHL: 2453213578 \n    Emily Martinez\n    Sales Manager\n    <Attachment: Commercial Invoice HQKCCPUP>",
+        "labels": {
+            "po_numbers": [
+                "43332",
+                "42283",
+                "42507",
+                "45208",
+                "40638"
+            ],
+            "part_numbers": [
+                "AX2045 SMTAB PCB V2Q5",
+                "DA0961 SMTPA PCB V1P3",
+                "DA0961 SMTPA PCB V1P3",
+                "Module_XYZ12457890_A",
+                "Module_XYZ12457890_A"
+            ],
+            "quantities": [
+                "316",
+                "466",
+                "480",
+                "190",
+                "470"
+            ],
+            "tracking_number": "2453213578"
+        }
+    },
+    {
+        "sender": "Emily Smith",
+        "recipient": "Oliver Jones",
+        "subject": "Shipment Notification",
+        "body": "\n    Hi Oliver,\n    See below shipment:\n    | PO    | Part No.                                         | Pnl  |\n    |-------|--------------------------------------------------|------|\n    | 47452 | AX2045 SMTAB PCB V2Q5 | 225    |\n    | 48656 | Panel_CAM81204140_01 | 318    |\n    | 41758 | PT-0037229 Rev A PT-0038573 Rev A | 153    |\n    | 41706 | Panel_CAM81204140_01 | 222    |\n    | 42504 | DA0961 SMTPA PCB V1P3 | 301    |\n    DHL: 8101518243 \n    Emily Smith\n    Sales Manager\n    <Attachment: Commercial Invoice VEMRJREB>",
+        "labels": {
+            "po_numbers": [
+                "47452",
+                "48656",
+                "41758",
+                "41706",
+                "42504"
+            ],
+            "part_numbers": [
+                "AX2045 SMTAB PCB V2Q5",
+                "Panel_CAM81204140_01",
+                "PT-0037229 Rev A PT-0038573 Rev A",
+                "Panel_CAM81204140_01",
+                "DA0961 SMTPA PCB V1P3"
+            ],
+            "quantities": [
+                "225",
+                "318",
+                "153",
+                "222",
+                "301"
+            ],
+            "tracking_number": "8101518243"
+        }
+    },
+    {
+        "sender": "Mason Garcia",
+        "recipient": "Tom Garcia",
+        "subject": "Shipment Notification",
+        "body": "\n    Hi Tom,\n    See below shipment:\n    | PO    | Part No.                                         | Pnl  |\n    |-------|--------------------------------------------------|------|\n    | 42305 | Catamount 8L RI Rev 1 & Catamount 8L REStripline | 205    |\n    | 44251 | FT-0093472 Rev B FT-0048723 Rev C | 433    |\n    | 40084 | Module_XYZ12457890_A | 455    |\n    | 40576 | PT-0037229 Rev A PT-0038573 Rev A | 488    |\n    | 45373 | Catamount 8L RI Rev 1 & Catamount 8L REStripline | 16    |\n    DHL: 5317376136 \n    Mason Garcia\n    Sales Manager\n    <Attachment: Commercial Invoice QGTLVDTO>",
+        "labels": {
+            "po_numbers": [
+                "42305",
+                "44251",
+                "40084",
+                "40576",
+                "45373"
+            ],
+            "part_numbers": [
+                "Catamount 8L RI Rev 1 & Catamount 8L REStripline",
+                "FT-0093472 Rev B FT-0048723 Rev C",
+                "Module_XYZ12457890_A",
+                "PT-0037229 Rev A PT-0038573 Rev A",
+                "Catamount 8L RI Rev 1 & Catamount 8L REStripline"
+            ],
+            "quantities": [
+                "205",
+                "433",
+                "455",
+                "488",
+                "16"
+            ],
+            "tracking_number": "5317376136"
+        }
+    },
+    {
+        "sender": "Emily Garcia",
+        "recipient": "James Johnson",
+        "subject": "Shipment Notification",
+        "body": "\n    Hi James,\n    See below shipment:\n    | PO    | Part No.                                         | Pnl  |\n    |-------|--------------------------------------------------|------|\n    | 46184 | PT-0037229 Rev A PT-0038573 Rev A | 37    |\n    | 42040 | Panel_CAM81204140_01 | 120    |\n    | 45948 | Panel_CAM81204140_01 | 148    |\n    | 42252 | Panel_CAM81204140_01 | 62    |\n    | 45735 | DA0961 SMTPA PCB V1P3 | 446    |\n    DHL: 8818518478 \n    Emily Garcia\n    Sales Manager\n    <Attachment: Commercial Invoice ZYCPJTYL>",
+        "labels": {
+            "po_numbers": [
+                "46184",
+                "42040",
+                "45948",
+                "42252",
+                "45735"
+            ],
+            "part_numbers": [
+                "PT-0037229 Rev A PT-0038573 Rev A",
+                "Panel_CAM81204140_01",
+                "Panel_CAM81204140_01",
+                "Panel_CAM81204140_01",
+                "DA0961 SMTPA PCB V1P3"
+            ],
+            "quantities": [
+                "37",
+                "120",
+                "148",
+                "62",
+                "446"
+            ],
+            "tracking_number": "8818518478"
+        }
+    },
+    {
+        "sender": "Sarah Davis",
+        "recipient": "Liam Miller",
+        "subject": "Shipment Notification",
+        "body": "\n    Hi Liam,\n    See below shipment:\n    | PO    | Part No.                                         | Pnl  |\n    |-------|--------------------------------------------------|------|\n    | 40830 | Panel_CAM81204140_01 | 415    |\n    | 47081 | Catamount 8L RI Rev 1 & Catamount 8L REStripline | 132    |\n    | 49500 | DA0961 SMTPA PCB V1P3 | 243    |\n    | 47458 | FT-0093472 Rev B FT-0048723 Rev C | 265    |\n    | 41917 | Dual Sensor V2.0 | 101    |\n    DHL: 3420544235 \n    Sarah Davis\n    Sales Manager\n    <Attachment: Commercial Invoice SKCWAJEX>",
+        "labels": {
+            "po_numbers": [
+                "40830",
+                "47081",
+                "49500",
+                "47458",
+                "41917"
+            ],
+            "part_numbers": [
+                "Panel_CAM81204140_01",
+                "Catamount 8L RI Rev 1 & Catamount 8L REStripline",
+                "DA0961 SMTPA PCB V1P3",
+                "FT-0093472 Rev B FT-0048723 Rev C",
+                "Dual Sensor V2.0"
+            ],
+            "quantities": [
+                "415",
+                "132",
+                "243",
+                "265",
+                "101"
+            ],
+            "tracking_number": "3420544235"
+        }
+    },
+    {
+        "sender": "Isabella Johnson",
+        "recipient": "Liam Smith",
+        "subject": "Shipment Notification",
+        "body": "\n    Hi Liam,\n    See below shipment:\n    | PO    | Part No.                                         | Pnl  |\n    |-------|--------------------------------------------------|------|\n    | 45915 | Module_XYZ12457890_A | 424    |\n    | 43331 | Quad Sensor V3.1 | 10    |\n    | 40426 | DA0961 SMTPA PCB V1P3 | 277    |\n    | 42597 | PT-0037229 Rev A PT-0038573 Rev A | 317    |\n    | 42016 | Catamount 8L RI Rev 1 & Catamount 8L REStripline | 305    |\n    DHL: 6083214869 \n    Isabella Johnson\n    Sales Manager\n    <Attachment: Commercial Invoice GAJLKUFI>",
+        "labels": {
+            "po_numbers": [
+                "45915",
+                "43331",
+                "40426",
+                "42597",
+                "42016"
+            ],
+            "part_numbers": [
+                "Module_XYZ12457890_A",
+                "Quad Sensor V3.1",
+                "DA0961 SMTPA PCB V1P3",
+                "PT-0037229 Rev A PT-0038573 Rev A",
+                "Catamount 8L RI Rev 1 & Catamount 8L REStripline"
+            ],
+            "quantities": [
+                "424",
+                "10",
+                "277",
+                "317",
+                "305"
+            ],
+            "tracking_number": "6083214869"
+        }
+    },
+    {
+        "sender": "Isabella Davis",
+        "recipient": "Tom Davis",
+        "subject": "Shipment Notification",
+        "body": "\n    Hi Tom,\n    See below shipment:\n    | PO    | Part No.                                         | Pnl  |\n    |-------|--------------------------------------------------|------|\n    | 44410 | Quad Sensor V3.1 | 132    |\n    | 44089 | PT-0037229 Rev A PT-0038573 Rev A | 42    |\n    | 49227 | Quad Sensor V3.1 | 226    |\n    | 44040 | DA0961 SMTPA PCB V1P3 | 396    |\n    | 43063 | FT-0093472 Rev B FT-0048723 Rev C | 62    |\n    DHL: 9747732319 \n    Isabella Davis\n    Sales Manager\n    <Attachment: Commercial Invoice PZVDAPMI>",
+        "labels": {
+            "po_numbers": [
+                "44410",
+                "44089",
+                "49227",
+                "44040",
+                "43063"
+            ],
+            "part_numbers": [
+                "Quad Sensor V3.1",
+                "PT-0037229 Rev A PT-0038573 Rev A",
+                "Quad Sensor V3.1",
+                "DA0961 SMTPA PCB V1P3",
+                "FT-0093472 Rev B FT-0048723 Rev C"
+            ],
+            "quantities": [
+                "132",
+                "42",
+                "226",
+                "396",
+                "62"
+            ],
+            "tracking_number": "9747732319"
+        }
+    },
+    {
+        "sender": "Sophia Brown",
+        "recipient": "Sarah Rodriguez",
+        "subject": "Shipment Notification",
+        "body": "\n    Hi Sarah,\n    See below shipment:\n    | PO    | Part No.                                         | Pnl  |\n    |-------|--------------------------------------------------|------|\n    | 47611 | PT-0037229 Rev A PT-0038573 Rev A | 208    |\n    | 43201 | AX2045 SMTAB PCB V2Q5 | 479    |\n    | 42712 | Quad Sensor V3.1 | 131    |\n    | 46934 | Catamount 8L RI Rev 1 & Catamount 8L REStripline | 371    |\n    | 43780 | AX2045 SMTAB PCB V2Q5 | 92    |\n    DHL: 5908844883 \n    Sophia Brown\n    Sales Manager\n    <Attachment: Commercial Invoice DJJHWPJI>",
+        "labels": {
+            "po_numbers": [
+                "47611",
+                "43201",
+                "42712",
+                "46934",
+                "43780"
+            ],
+            "part_numbers": [
+                "PT-0037229 Rev A PT-0038573 Rev A",
+                "AX2045 SMTAB PCB V2Q5",
+                "Quad Sensor V3.1",
+                "Catamount 8L RI Rev 1 & Catamount 8L REStripline",
+                "AX2045 SMTAB PCB V2Q5"
+            ],
+            "quantities": [
+                "208",
+                "479",
+                "131",
+                "371",
+                "92"
+            ],
+            "tracking_number": "5908844883"
+        }
+    },
+    {
+        "sender": "Isabella Miller",
+        "recipient": "Liam Smith",
+        "subject": "Shipment Notification",
+        "body": "\n    Hi Liam,\n    See below shipment:\n    | PO    | Part No.                                         | Pnl  |\n    |-------|--------------------------------------------------|------|\n    | 47923 | AX2045 SMTAB PCB V2Q5 | 214    |\n    | 44022 | FT-0093472 Rev B FT-0048723 Rev C | 446    |\n    | 44284 | PT-0037229 Rev A PT-0038573 Rev A | 149    |\n    | 44882 | DA0961 SMTPA PCB V1P3 | 57    |\n    | 48418 | Catamount 8L RI Rev 1 & Catamount 8L REStripline | 142    |\n    DHL: 9897397804 \n    Isabella Miller\n    Sales Manager\n    <Attachment: Commercial Invoice OCBATBML>",
+        "labels": {
+            "po_numbers": [
+                "47923",
+                "44022",
+                "44284",
+                "44882",
+                "48418"
+            ],
+            "part_numbers": [
+                "AX2045 SMTAB PCB V2Q5",
+                "FT-0093472 Rev B FT-0048723 Rev C",
+                "PT-0037229 Rev A PT-0038573 Rev A",
+                "DA0961 SMTPA PCB V1P3",
+                "Catamount 8L RI Rev 1 & Catamount 8L REStripline"
+            ],
+            "quantities": [
+                "214",
+                "446",
+                "149",
+                "57",
+                "142"
+            ],
+            "tracking_number": "9897397804"
+        }
+    },
+    {
+        "sender": "Tom Miller",
+        "recipient": "Isabella Davis",
+        "subject": "Shipment Notification",
+        "body": "\n    Hi Isabella,\n    See below shipment:\n    | PO    | Part No.                                         | Pnl  |\n    |-------|--------------------------------------------------|------|\n    | 47681 | Panel_CAM81204140_01 | 274    |\n    | 47018 | Dual Sensor V2.0 | 380    |\n    | 41473 | Panel_CAM81204140_01 | 363    |\n    | 45543 | AX2045 SMTAB PCB V2Q5 | 449    |\n    | 41419 | Catamount 8L RI Rev 1 & Catamount 8L REStripline | 181    |\n    DHL: 8661658875 \n    Tom Miller\n    Sales Manager\n    <Attachment: Commercial Invoice DLYGZYKP>",
+        "labels": {
+            "po_numbers": [
+                "47681",
+                "47018",
+                "41473",
+                "45543",
+                "41419"
+            ],
+            "part_numbers": [
+                "Panel_CAM81204140_01",
+                "Dual Sensor V2.0",
+                "Panel_CAM81204140_01",
+                "AX2045 SMTAB PCB V2Q5",
+                "Catamount 8L RI Rev 1 & Catamount 8L REStripline"
+            ],
+            "quantities": [
+                "274",
+                "380",
+                "363",
+                "449",
+                "181"
+            ],
+            "tracking_number": "8661658875"
+        }
+    }
+]
