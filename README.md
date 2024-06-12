@@ -7,7 +7,7 @@ This project provides an automated solution to parse shipment notification email
 
 ## Motivation
 
-Shipco Circuits, a printed circuit board (PCB) contract manufacturer, handles a significant volume of incoming shipment notifications from various suppliers. These emails contain critical information that needs to be processed promptly to maintain efficient operations. The current manual process is time-consuming and prone to errors. This project aims to automate the extraction and validation of shipment details, thus improving efficiency and accuracy.
+A printed circuit board (PCB) contract manufacturer, handles a significant volume of incoming shipment notifications from various suppliers. These emails contain critical information that needs to be processed promptly to maintain efficient operations. The current manual process is time-consuming and prone to errors. This project aims to automate the extraction and validation of shipment details, thus improving efficiency and accuracy.
 
 ## Features
 
@@ -36,7 +36,7 @@ pip install openai requests python-dotenv
 #### Clone the Repository:
 
 ```sh
-git clone https://github.com/yourusername/email-parser-llm.git
+git clone https://github.com/michaelkernaghan/email-parser-llm.git
 cd email-parser-llm
 ```
 
@@ -109,42 +109,6 @@ List of required Python libraries:
 - openai
 - requests
 - python-dotenv
-
-## Possible Extensions and Additional Work
-
-### 1. Integration with Real Systems
-
-- **ERP Systems**: Extend the mock ERP system to integrate with real ERP software like SAP or Oracle.
-- **Accounting Systems**: Connect the mock accounting system to real accounting software such as QuickBooks or Xero.
-
-### 2. Enhanced Error Handling
-
-- Improve error handling to cover more edge cases, such as network issues or API response errors.
-- Implement retry logic for API calls.
-
-### 3. Email Classification
-
-- Enhance the LLM prompt to classify emails into different types (e.g., shipment notifications, invoices, general inquiries).
-- Implement a routing system to handle different email types appropriately.
-
-### 4. User Interface
-
-- Develop a web interface to display processed emails and their extracted details.
-- Allow users to correct any extraction errors through the interface manually.
-
-### 5. Notification System
-
-- Implement a notification system to alert users about shipment discrepancies or validation errors.
-
-### 6. Testing and Deployment
-
-- Write unit and integration tests to ensure the reliability of the system.
-- Deploy the solution using containerization tools like Docker and orchestration platforms like Kubernetes.
-
-### 7. Security Enhancements
-
-- Ensure sensitive information is securely handled and stored.
-- Implement authentication and authorization mechanisms for accessing the system.
 
 ## Contact
 
