@@ -1,4 +1,5 @@
 import spacy
+import json
 
 # Load the trained model
 nlp = spacy.load("./trained_model")
@@ -18,24 +19,27 @@ def process_email(email_text):
     
     return extracted_entities
 
-# Example new email
-new_email = """
-Hi Tom/Niall,
-See below shipment:
-| PO    | Part No.                                         | Pnl  |
-|-------|--------------------------------------------------|------|
-| 43875 | Catamount 8L RI Rev 1 & Catamount 8L REStripline | 5    |
-| 43881 | PT-0037229 Rev A PT-0038573 Rev A                | 10   |
-| 43884 | Dual Sensor V2.0                                 | 10   |
-| 43882 | Panel_CAM81204140_01                             | 200  |
-| 43885 | DA0961 SMTPA PCB V1P3                            | 50   |
-DHL: 7322345656 
-Vincent Lim
-Sales Manager
-<Attachment: Commercial Invoice 2269A>
-"""
+# Define a function to process all emails in the test email set
+def process_all_emails(json_file):
+    with open(json_file, 'r') as f:
+        emails = json.load(f)
 
-# Process the email and extract entities
-extracted_entities = process_email(new_email)
-print("Extracted Entities:")
-print(extracted_entities)
+    all_extracted_entities = []
+    for email in emails:
+        print(f"Processing email from {email['sender']} to {email['recipient']}")
+        extracted_entities = process_email(email['body'])
+        all_extracted_entities.append({
+            "sender": email['sender'],
+            "recipient": email['recipient'],
+            "extracted_entities": extracted_entities
+        })
+    
+    return all_extracted_entities
+
+# Specify the JSON file containing the test emails
+json_file = 'test_emails.json'
+
+# Process all the emails and print the extracted entities
+all_extracted_entities = process_all_emails(json_file)
+print("Extracted Entities from all emails:")
+print(json.dumps(all_extracted_entities, indent=2))

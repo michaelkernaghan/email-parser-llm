@@ -8,29 +8,27 @@ import os
 load_dotenv()
 openai_api_key = os.getenv("OPENAI_API_KEY")
 
-# Mock ERPSystem and XeroSystem classes for testing purposes
+# Mock classes to simulate interaction with an ERP system and Xero for demonstration purposes
 class ERPSystem:
     def validate(self, details):
-        # Mock validation logic
         print("Validating with ERP system...")
         return True
 
     def create_grn(self, details):
-        # Mock GRN creation logic
         print("Creating GRN in ERP system...")
         print(f"Details: {details}")
 
 class XeroSystem:
     def create_invoice(self, details):
-        # Mock invoice creation logic
         print("Creating payable invoice in Xero system...")
         print(f"Details: {details}")
 
-# Initialize systems
+# Initialize instances of the mock systems
 erp_system = ERPSystem()
 xero_system = XeroSystem()
 
-# Function to call OpenAI's GPT for parsing email
+# This function interacts with the OpenAI GPT model to extract structured data from an email text.
+# It sets up the API key, sends a formatted prompt to the GPT model, and returns the parsed response.
 def call_openai_gpt(prompt):
     openai.api_key = openai_api_key
     response = openai.ChatCompletion.create(
@@ -42,6 +40,8 @@ def call_openai_gpt(prompt):
     )
     return response['choices'][0]['message']['content'].strip()
 
+# This function constructs a prompt for the GPT model to parse an email and extract specific shipment details.
+# It processes the GPT response and converts it into a JSON object.
 def parse_email_with_gpt(email_text):
     prompt = (
         "You will be given a shipment notification email. Extract the following details and provide them in JSON format:\n"
@@ -60,7 +60,7 @@ def parse_email_with_gpt(email_text):
         "}"
     )
     response = call_openai_gpt(prompt)
-    print(f"GPT raw response: {response}")  # Log the raw response from GPT
+    print(f"GPT raw response: {response}")
     try:
         details = json.loads(response)
     except json.JSONDecodeError:
@@ -68,6 +68,8 @@ def parse_email_with_gpt(email_text):
         details = {}
     return details
 
+# This function simulates the validation of shipment details with an ERP system.
+# It is essential for ensuring that the data meets the ERP system's requirements before further processing.
 def validate_with_erp(details):
     try:
         return erp_system.validate(details)
@@ -75,23 +77,30 @@ def validate_with_erp(details):
         print(f"Error validating with ERP: {e}")
         return False
 
+# This function simulates the validation of a tracking number.
+# It is crucial for verifying the integrity and existence of the tracking information.
 def validate_tracking_number(tracking_number):
-    # Mock validation logic for testing purposes
     print(f"Mock validating tracking number: {tracking_number}")
     return True
 
+# This function simulates the creation of a Goods Receipt Note (GRN) in an ERP system.
+# It is necessary for documenting the receipt of goods in the system.
 def create_grn(details):
     try:
         erp_system.create_grn(details)
     except Exception as e:
         print(f"Error creating GRN: {e}")
 
+# This function simulates the creation of a payable invoice in the Xero system.
+# It is needed for managing the financial transactions related to the shipment.
 def create_payable_invoice(details):
     try:
         xero_system.create_invoice(details)
     except Exception as e:
         print(f"Error creating payable invoice: {e}")
 
+# This function orchestrates the shipment processing workflow.
+# It ensures that all necessary validations and creations are performed in the correct order.
 def process_shipment(details):
     required_keys = ['po_numbers', 'part_numbers', 'quantities', 'tracking_number']
     missing_keys = [key for key in required_keys if key not in details]
@@ -105,6 +114,8 @@ def process_shipment(details):
             create_grn(details)
             create_payable_invoice(details)
 
+# This function processes a batch of test emails containing shipment notifications.
+# It reads the emails from a JSON file, parses them, and initiates the shipment processing workflow for each email.
 def process_test_emails(json_file):
     with open(json_file, 'r') as f:
         test_emails = json.load(f)
@@ -114,5 +125,5 @@ def process_test_emails(json_file):
         shipment_details = parse_email_with_gpt(email['body'])
         process_shipment(shipment_details)
 
-# Process the test emails from the JSON file
+# Start processing the test emails from the specified JSON file
 process_test_emails('test_emails.json')
